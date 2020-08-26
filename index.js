@@ -1,6 +1,4 @@
 // Code your solutions in this file
-
-// Code your solutions in this file
 const gifts = ["teddy bear", "drone", "doll"];
 
 function wrapGifts(gifts) {
