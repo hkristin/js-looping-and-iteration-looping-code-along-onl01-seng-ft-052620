@@ -9,12 +9,12 @@ function wrapGifts(gifts) {
 }
 wrapGifts(gifts);
 
-const cards = ["Ada", "Brendan", "Ali"];
+const names = ["Ada", "Brendan", "Ali"];
 let event = ["birthday"]
 
-function writeCards(cards, event) {
-  for(let i = 0; i < cards.length; i++) {
-    console.log('Thank you, ${cards[i]}, for the wonderful ${event} gift!');
+function writeCards(names, event) {
+  for(let i = 0; i < names.length; i++) {
+    console.log('Thank you, ${names[i]}, for the wonderful ${event} gift!');
   }
   return cards
 }
