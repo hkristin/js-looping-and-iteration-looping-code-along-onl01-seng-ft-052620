@@ -1,3 +1,4 @@
+let names = ["Lisa", "Kaitlin", "Jan"]
 
 function writeCards(names, event) {
   let thankYouCards = []
